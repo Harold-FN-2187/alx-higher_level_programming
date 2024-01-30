@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("{} arguments.".format(cnt))
     elif cnt == 1:
         print("{} argument:".format(cnt))
-    else:d
+    else:
         print("{} arguments".format(cnt))
     for i in range(cnt):
         print("{}: {}".format(i+1, sys.argv[i + 1]))
