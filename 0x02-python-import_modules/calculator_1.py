@@ -16,4 +16,4 @@ def mul(a, b):
 
 def div(a, b):
     """Division function"""
-    return int(a/b)
+    return int(a / b)
