@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""lass that defins a square with some attributes and instantiation"""
+"""Class that defines a square with some attributes and instantiation"""
+
+
 class Square:
     """Represents a Square"""
 
