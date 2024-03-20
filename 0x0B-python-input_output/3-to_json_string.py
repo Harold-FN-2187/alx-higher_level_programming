@@ -3,7 +3,7 @@
 import json
 
 
-def to_json_strin(my_obj):
+def to_json_string(my_obj):
     """
     returns JSON represenation of a string object
     """
