@@ -18,6 +18,7 @@ class Square:
 
     @size.setter
     def size(self, value):
+        """Retrieves private instance attribute size"""
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif value < 0:
@@ -26,13 +27,15 @@ class Square:
 
     @position.setter
     def position(self, value):
-
+        """Return current position of square"""
         self.__position = value
 
     def area(self):
+        """Return current area of square"""
         return (self.__size * self.__size)
 
     def my_print(self):
+        """Print square using # character"""
         if self.__size == 0:
             print("")
             return
